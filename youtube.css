@@ -245,6 +245,26 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
+/* Developer credit */
+.developer-credit {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.developer-credit p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    margin: 0;
+}
+
+.developer-name {
+    color: #f8f8f8;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 /* Layout utilities */
 .flex-column {
     display: flex;
