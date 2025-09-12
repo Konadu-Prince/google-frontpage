@@ -1,100 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="">
-<title>Google Front Page</title>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google Front Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="youtube.css">
 </head>
 <body>
-         <!-- header starts -->
-        <div class="header">
-            <div class="head_left">
-                <!-- <a id="trans" href="#" >About</a>  -->
-                <!-- <a id="trans" href="#">Store</a>  -->
-            </div>
-
-            <div  class="header_right">
-                <a  href="#">Gmail</a>
-                <a  href="#">Image</a>
-                
-                <span class="material-symbols-outlined header_apps">apps</span>
-                <!-- <span class="material-symbols-outlined" >--> 
-                     <img src="g.jpg" alt="G-manu" > <!--</span> -->
-            </div>
-              
+    <!-- header starts -->
+    <div class="header">
+        <div class="header_left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
         </div>
+
+        <div class="header_right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <span class="material-symbols-outlined header_apps">apps</span>
+            <img src="https://www.google.com/favicon.ico" alt="Google G" class="profile-img">
+        </div>
+    </div>
     <!-- header ends -->
 
     <!--Main body starts-->
     <div class="mainBody">
-        <div>
-           <h1>Google</h1>
+        <div class="logo-container">
+            <h1>Google</h1>
         </div>
+        
         <!-- search starts -->
-        <div class="search">
+        <div class="search-container">
             <div class="search_input">
-                <span class="material-symbols-outlined">
-                search</span>
-                <input type="text" placeholder="Search Google or type URL ">
-                <span class="material-symbols-outlined">
-                mic</span>
+                <span class="material-symbols-outlined search-icon">search</span>
+                <input type="text" placeholder="Search Google or type a URL">
+                <span class="material-symbols-outlined mic-icon">mic</span>
             </div>
-             <!--<div class="search_buttons"> 
-                <button>Google Search</button>
-                <button>Im feeling Lucky</button>
+            
+            <div class="search_buttons">
+                <button class="search-btn">Google Search</button>
+                <button class="search-btn">I'm Feeling Lucky</button>
+            </div>
+        </div>
+        <!-- search ends -->
 
-            </div> -->
+        <!-- shortcuts section -->
+        <div class="shortcuts-container">
             <div class="flex-row">
                 <div class="flex-column">
                     <div class="img-bg">
-                        <img src="github.png" alt="" >
+                        <img src="github.png" alt="GitHub">
                     </div>
-                    <b style="color: aliceblue;">Github</b>
+                    <span class="shortcut-label">GitHub</span>
                 </div>
                
                 <div class="flex-column">
                     <div class="img-bg">
-                        <img src="youtube.png" alt="" >
+                        <img src="youtube.png" alt="YouTube">
                     </div>
-                    <b style="color: aliceblue;">Youtube</b>
+                    <span class="shortcut-label">YouTube</span>
                 </div>
+                
                 <div class="flex-column">
-                    <div class="img-bg">
-                        <p>+</p>
+                    <div class="img-bg add-shortcut">
+                        <span class="material-symbols-outlined">add</span>
                     </div>
-                    <b style="color: aliceblue;">Add Shortcut</b>
+                    <span class="shortcut-label">Add Shortcut</span>
                 </div>
             </div>
-          
         </div>
-        <!-- search ends -->
-       
-
-
-        
     </div> 
     <!-- Main body ends -->
 
     <!-- footer starts -->
-    <div  class="footer" >
+    <div class="footer">
         <div class="footer_left">
-            <a href="#">....</a> 
-            <a href="#">....</a> 
+            <a href="#">Privacy</a> 
+            <a href="#">Terms</a> 
+            <a href="#">Settings</a>
         </div>
         <div class="footer_right">
-            <div class="search_custom" >
-                <span id="pencil" class="material-symbols-outlined">edit</span>
-                
-                <input type="text"  placeholder="customise chrome">
+            <div class="customize_chrome">
+                <span class="material-symbols-outlined">edit</span>
+                <input type="text" placeholder="Customize Chrome">
             </div>
         </div>
     </div>
-     <!-- footer starts -->
+    <!-- footer ends -->
     
 </body>
 </html>
